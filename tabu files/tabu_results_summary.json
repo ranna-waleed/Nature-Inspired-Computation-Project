@@ -1,0 +1,40 @@
+{
+  "optimization": {
+    "algorithm": "Tabu Search",
+    "max_iterations": 8,
+    "neighborhood_size": 6,
+    "tabu_tenure": 3,
+    "aspiration": true,
+    "best_val_accuracy_during_search": 0.8222222328186035,
+    "best_parameters": {
+      "learning_rate": 0.008457502952512344,
+      "dropout_rate": 0.22609091265141662,
+      "l2_reg": 0.0023981218006766353,
+      "filter1": 103,
+      "filter2": 68,
+      "filter3": 384,
+      "dense_units": 384
+    }
+  },
+  "final_model": {
+    "test_accuracy": 0.7048054933547974,
+    "test_loss": 0.7912733554840088,
+    "val_accuracy": 0.7415204644203186,
+    "best_epoch": 28,
+    "training_time_seconds": 1072.465360403061
+  },
+  "class_names": [
+    "glioma",
+    "meningioma",
+    "notumor",
+    "pituitary"
+  ],
+  "baseline_comparison": {
+    "baseline_test_accuracy": 0.7765064835548401,
+    "baseline_val_accuracy": 0.7836257219314575,
+    "test_accuracy_improvement": -0.07170099020004272,
+    "test_accuracy_improvement_percent": -9.2337915675599,
+    "val_accuracy_improvement": -0.042105257511138916,
+    "val_accuracy_improvement_percent": -5.373133669905465
+  }
+}
