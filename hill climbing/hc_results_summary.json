@@ -1,0 +1,41 @@
+{
+  "optimization": {
+    "algorithm": "Hill Climbing with Random Restarts",
+    "n_restarts": 5,
+    "n_iterations_per_restart": 8,
+    "total_evaluations": 45,
+    "epochs_per_eval": 10,
+    "patience": 2,
+    "best_val_loss_during_search": 2.051344156265259,
+    "best_parameters": {
+      "learning_rate": 0.005145332311339085,
+      "dropout_rate": 0.2,
+      "l2_reg": 0.003574778106177717,
+      "filter1": 96,
+      "filter2": 109,
+      "filter3": 120,
+      "dense_units": 85
+    }
+  },
+  "final_model": {
+    "test_accuracy": 0.5652173757553101,
+    "test_loss": 2.108267307281494,
+    "val_accuracy": 0.6970760226249695,
+    "best_epoch": 3,
+    "training_time_seconds": 1521.6132419109344
+  },
+  "class_names": [
+    "glioma",
+    "meningioma",
+    "notumor",
+    "pituitary"
+  ],
+  "baseline_comparison": {
+    "baseline_test_accuracy": 0.7765064835548401,
+    "baseline_val_accuracy": 0.7836257219314575,
+    "test_accuracy_improvement": -0.21128910779953003,
+    "test_accuracy_improvement_percent": -27.210218108192773,
+    "val_accuracy_improvement": -0.08654969930648804,
+    "val_accuracy_improvement_percent": -11.044775188487037
+  }
+}
