@@ -1,0 +1,9 @@
+{
+  "learning_rate": 0.00810028590599102,
+  "dropout_rate": 0.32805763064237214,
+  "l2_reg": 0.008249402727293739,
+  "filter1": 34,
+  "filter2": 64,
+  "filter3": 482,
+  "dense_units": 200
+}
